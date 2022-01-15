@@ -22,7 +22,7 @@ const Nav = () => {
           >
             <a
               className=" text-gray-100 hover:text-gray-400 duration-500"
-              href=""
+              href="#"
             >
               {link.name}
             </a>
