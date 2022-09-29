@@ -1,11 +1,11 @@
 import React from "react";
 import HomeTitle from "./HomeTitle";
 import Nav from "./Nav";
-import Card from "./component/Card";
+import Card from "../component/Card";
 import u1 from "./images/taddy.jpeg";
-import Card2 from "./component/Card2";
-import Card3 from "./component/Card3";
-import Card4 from "./component/Card4";
+import Card2 from "../component/Card2";
+import Card3 from "../component/Card3";
+import Card4 from "../component/Card4";
 const Home = () => {
   return (
     <>
@@ -40,7 +40,7 @@ const Home = () => {
       <Card />
       <Card2 />
       <Card3 />
-      <Card4/>
+      <Card4 />
     </>
   );
 };
